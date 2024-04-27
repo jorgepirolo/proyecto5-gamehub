@@ -1,0 +1,24 @@
+.divchange {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.divchange > img {
+  height: 80px;
+}
+
+.divchange > p {
+  font-size: 20px;
+  color: var(--timberwolf);
+  position: absolute;
+  top: 65px;
+}

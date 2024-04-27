@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+:root {
+  --timberwolf: hsla(0, 0%, 84%, 1);
+  --aureolin: #ffee33;
+  --jonquil: hsla(49, 100%, 50%, 1);
+  --eerie-black: hsla(0, 0%, 13%, 1);
+  --jet: hsla(120, 2%, 20%, 1);
+
+  --padding-s: 10px;
+  --padding-m: 15px;
+  --padding-l: 30px;
+  --padding-xl: 50px;
+
+  --margin-s: 10px;
+  --margin-m: 15px;
+  --margin-l: 30px;
+  --margin-xl: 50px;
+
+  --gap-s: 10px;
+  --gap-m: 15px;
+  --gap-l: 30px;
+  --gap-xl: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: 'Jersey 10', sans-serif;
+  color: var(--jonquil);
+
+  font-weight: 400;
+}
+
+body {
+  background-color: var(--jet);
+  background-image: url(https://mcdn.wallpapersafari.com/medium/16/18/A9f3BT.jpg);
+  height: auto;
+}

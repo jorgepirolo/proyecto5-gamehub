@@ -1,0 +1,30 @@
+.winner {
+  position: absolute;
+  background-color: var(--timberwolf);
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+  border-radius: 20px;
+  align-items: center;
+  color: var(--jet);
+  text-align: center;
+  height: 100%;
+  font-size: 30px;
+}
+
+.restartbut {
+  position: absolute;
+  z-index: 99;
+  background-color: var(--jonquil);
+  color: var(--jet);
+  height: 50px;
+  font-size: 20px;
+  width: 200px;
+  align-self: center;
+  bottom: 20px;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}

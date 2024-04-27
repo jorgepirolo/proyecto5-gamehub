@@ -1,0 +1,83 @@
+#til {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  align-content: center;
+  margin-top: var(--margin-s);
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  top: 50px;
+}
+
+#til > h2 {
+  font-size: 45px;
+  margin-bottom: var(--margin-l);
+}
+
+#til > h3 {
+  font-size: 30px;
+  color: var(--timberwolf);
+}
+
+.tablero {
+  display: grid;
+  background-color: var(--timberwolf);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 400px;
+  width: 400px;
+  gap: 5px;
+  margin-top: var(--margin-xl);
+  padding: 5px;
+  position: absolute;
+  top: 200px;
+  border-radius: 20px;
+}
+
+.quadro {
+  background-color: var(--jet);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.divide {
+  display: flex;
+  gap: 50px;
+}
+
+.divide > p {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.divide > .o {
+  color: var(--timberwolf);
+}
+
+.quadro {
+  font-size: 50px;
+}
+
+.o {
+  color: var(--timberwolf);
+}
+
+.turnito {
+  -webkit-box-shadow: 0px 5px 0px 0px rgba(255, 238, 51, 1);
+  box-shadow: 0px 5px 0px 0px rgba(255, 238, 51, 1);
+}
+
+@media (max-width: 900px) {
+  .tablero {
+    height: 300px;
+    width: 300px;
+  }
+
+  #til {
+    top: 120px;
+  }
+}

@@ -1,0 +1,61 @@
+#WAM {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-s);
+  align-items: center;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+#WAM > p {
+  color: var(--timberwolf);
+}
+
+.difc {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: var(--gap-l);
+
+  align-items: center;
+}
+
+.difc > button {
+  background-color: var(--jonquil);
+  color: var(--jet);
+  padding: var(--padding-s);
+  font-size: 20px;
+  z-index: 10;
+  cursor: pointer;
+  width: 200px;
+}
+
+.playg {
+  position: relative;
+  height: 60svh;
+  width: 80svw;
+  margin-top: 30px;
+  overflow: hidden;
+  background-color: #8d4925;
+
+  background-image: url('https://www.transparenttextures.com/patterns/buried.png');
+  border-radius: 20px;
+  border: solid 5px var(--timberwolf);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.topillo {
+  position: absolute;
+  height: 80px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .playg {
+    width: 90svw;
+  }
+}

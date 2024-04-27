@@ -1,0 +1,19 @@
+.boywalk {
+  position: absolute;
+  bottom: -40px;
+  height: 25%;
+  left: 0;
+}
+
+@keyframes mover {
+  from {
+    transform: translateX(calc(0vw - 150px));
+  }
+  to {
+    transform: translateX(calc(100vw - 10px));
+  }
+}
+
+.boywalk {
+  animation: mover 5s linear infinite;
+}

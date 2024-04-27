@@ -1,0 +1,16 @@
+.restwam {
+  background-color: var(--jonquil);
+  color: var(--jet);
+  padding: var(--padding-s);
+  font-size: 20px;
+  z-index: 10;
+  cursor: pointer;
+  width: 200px;
+}
+
+.divmsj {
+  display: flex;
+  gap: var(--gap-l);
+  flex-direction: column;
+  align-items: center;
+}
