@@ -22,3 +22,22 @@
   position: absolute;
   top: 65px;
 }
+
+@media (max-width: 900px) {
+  .divchange > img {
+    height: 50px;
+  }
+
+  .divchange > p {
+    font-size: 15px;
+    color: var(--timberwolf);
+    position: absolute;
+    top: 40px;
+  }
+
+  .divchange {
+    position: absolute;
+    top: 1%;
+    left: 0%;
+  }
+}

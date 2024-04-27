@@ -3,7 +3,6 @@
   justify-content: start;
   align-items: center;
   align-content: center;
-  margin-top: var(--margin-s);
   flex-direction: column;
   gap: 20px;
   position: absolute;
@@ -75,9 +74,15 @@
   .tablero {
     height: 300px;
     width: 300px;
+    top: 125px;
   }
 
   #til {
     top: 120px;
+    gap: 15px;
+  }
+
+  #til > h2 {
+    margin-bottom: 0px;
   }
 }

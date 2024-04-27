@@ -32,3 +32,10 @@
   position: absolute;
   left: -220px;
 }
+
+@media (max-width: 900px) {
+  .dancing {
+    height: 220px;
+    left: -170px;
+  }
+}

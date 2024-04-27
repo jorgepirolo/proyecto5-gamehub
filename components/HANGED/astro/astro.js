@@ -15,7 +15,7 @@ export const astro = () => {
   }
 
   const frame = document.createElement('img')
-  frame.src = '/public/assets/post.png'
+  frame.src = '/assets/post.png'
   frame.classList = 'frame'
 
   const hanged = document.querySelector('#hanged')

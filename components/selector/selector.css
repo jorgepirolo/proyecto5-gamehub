@@ -44,15 +44,15 @@
 
 @media (max-width: 900px) {
   .chooser > h1 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     margin-bottom: 20px;
   }
   .chooser > h2 {
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .chooser > p {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 0px;
   }
   .games {
